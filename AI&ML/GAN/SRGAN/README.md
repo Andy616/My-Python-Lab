@@ -26,10 +26,9 @@ I did the following things due to hardware limits:
 
 Replace Conv2dTranspose with UpSampling2D + Conv2D.
 
-Conv2dTranspose       ![checkboard1](./pngs/checkboard_effect.png)
---------------------------------------------------------------
-UpSampling2D + Conv2D ![checkboard2](./pngs/checkboard_effect2.png)
---------------------------------------------------------------------
+Conv2dTranspose vs. UpSampling2D + Conv2D 
+-------------------------------------
+![checkboard1](./pngs/checkboard_effect.png) ![checkboard2](./pngs/checkboard_effect2.png)
 ## Outcome
 
 ![outcome](./pngs/output.png)
