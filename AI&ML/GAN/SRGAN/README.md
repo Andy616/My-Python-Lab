@@ -4,14 +4,14 @@ Note: This code is built under TensorFlow 2.2.0.
 
 ## SRGAN Architecture
 
-Original paper: ["Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network"](https://arxiv.org/abs/1609.04802)
+Paper: ["Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network"](https://arxiv.org/abs/1609.04802)
 
-![architecture](./pngs/model_architecture.png)
+[![architecture](./pngs/model_architecture.png)](https://arxiv.org/abs/1609.04802)
 
 ## Dateset
 
 [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
-![celeba](./pngs/CelebA.png)
+[![celeba](./pngs/CelebA.png)](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 
 ## Adjustments
 
