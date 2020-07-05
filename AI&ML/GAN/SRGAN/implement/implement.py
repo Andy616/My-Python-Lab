@@ -26,7 +26,7 @@ model = tf.keras.models.load_model(model_path, custom_objects={ 'content_loss': 
 
 dirs = os.listdir()
 images = []
-image_formats = {'jpg', 'png', 'jpeg'}
+image_formats = {'jpg', 'jpeg'}
 for i in dirs:
     match = re.findall('.+\.(.+)', i)
     if len(match)==1 and match[0] in image_formats:
